@@ -3,8 +3,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 birdy_uri = 'spotify:artist:2WX2uTcsvV5OnS0inACecP'
-cid = 'c6cb940d34be48a4ba99edee4d43fc63'
-secret = '81f29637d8e7448da3d37b7651008d3d'
+cid = 'your_id'
+secret = 'your_secret'
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 """## Import Libraries"""
